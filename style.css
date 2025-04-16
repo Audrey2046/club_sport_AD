@@ -1,0 +1,57 @@
+body {
+    /* background-image: url('https://magazine.sportihome.com/wp-content/uploads/2021/07/quel-sport-choisir-.jpg'); */
+    /* background-image: url('./Images/sport.png'); */
+
+    background-color: #ECFEE8;
+    /* background-repeat: no-repeat; */
+    /* background-position: center; */
+    /* background-size: cover; */
+
+}
+
+header p {
+    background-image: url('https://img.freepik.com/vecteurs-libre/banniere-equipement-sport_1284-32611.jpg');
+    height: 500px; /* You must set a specified height */
+    background-size: cover;
+}
+
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #6ea4bf;
+}
+
+.list {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #41337a;
+}
+
+.active {
+    background-color: #331e36;
+}
+
+h1 {
+    text-align: center;
+    padding: 1%;
+}
+
+.text {
+    font-size: 1.2em;
+}
+
+section {
+    padding: 2%;
+}
